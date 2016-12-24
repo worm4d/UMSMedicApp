@@ -4,10 +4,55 @@
     android:id="@+id/activity_main_organs_brain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.ums.sun.umsmedicapp.MainOrgansBrain">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/backImage"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="12dp"
+            android:tint="@android:color/white"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+            android:id="@+id/attraction_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="brain"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/attraction_detail_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/main_toolbar"
+        android:adjustViewBounds="true"
+        android:contentDescription="SampleImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/organ_brain"/>
+
+    <TextView
+        android:id="@+id/details_txt"
+        android:layout_below="@id/attraction_detail_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines = "99"
+        android:scrollbars = "vertical"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="What a miraculous thing human brain is! It is one of the most powerful and marvelous creations of the Nature. It is known to have countless mysteries, the majority of which are still undiscovered and least understood. Your brain is a highly complex network of billions of neurons that render it the ability to think, feel, process information and produce responses. The question “What makes brain to initiate and accomplish the process of thinking” has not yet been answered properly. There are also a number of other related questions to which the researchers are trying to provide convincing answers. It has recently been discovered that, contrary to the earlier assumption, brain is not hardwired and can be changed or trained according to one’s will! Are you aware of the mind-blowing facts about your master organ? Well, it is high time to make yourself acquainted with some amazing realities about the human brain. This platform is specifically devoted to provide the readers with information that will not only be useful but also engaging and entertaining. Meanwhile, we also aim to keep you updated with the latest discoveries pertaining to the health, working and enhancement of brain. - See more at: http://www.humanbrainfacts.org/#sthash.vdSdLVE0.dpuf"/>
 
 </RelativeLayout>

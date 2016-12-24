@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main_organs_kidney"
+    android:id="@+id/activity_main_organs_brain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ums.sun.umsmedicapp.MainOrgansKidney">
+    tools:context="com.ums.sun.umsmedicapp.MainOrgansBrain">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/backImage"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="12dp"
+            android:tint="@android:color/white"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+            android:id="@+id/attraction_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="kidney"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/attraction_detail_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/main_toolbar"
+        android:adjustViewBounds="true"
+        android:contentDescription="SampleImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/organ_kidney"/>
+
+    <TextView
+        android:id="@+id/details_txt"
+        android:layout_below="@id/attraction_detail_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines = "99"
+        android:scrollbars = "vertical"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="It won’t be wrong to call kidney as the natural filter in your body. Its job is to purify blood and make it free from all the waste substances that it has collected from every individual cell. but how is such an important kidneys function executed? For this purpose, you need to study the kidney anatomy.
+
+Location Of KidneysYou can better understand the anatomy of kidneys from the labelled diagrams. One of these is shown here. In the kidney images, you can see that a nephron serves as the basic structural and functional unit. There are a large number of nephrons in each of these organs. They make a direct connection with a complex network of blood vessels.
+
+From the kidneys pictures, you can easily distinguish among different parts, such as medulla, cortex and the renal pelvis. On the side of the renal hilum, you will come across renal artery and the renal vein. From the renal pelvis, there emerges a ureter which descends downward to reach bladder. It also indicates that the location of kidneys is directly above the bladder."/>
 
 </RelativeLayout>

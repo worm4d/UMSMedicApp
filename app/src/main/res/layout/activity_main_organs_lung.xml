@@ -1,13 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main_organs_lung"
+    android:id="@+id/activity_main_organs_brain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ums.sun.umsmedicapp.MainOrgansLung">
+    tools:context="com.ums.sun.umsmedicapp.MainOrgansBrain">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/backImage"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="12dp"
+            android:tint="@android:color/white"
+            android:src="@drawable/ic_arrow_back_black_24dp"/>
+
+        <TextView
+            android:id="@+id/attraction_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="lungs"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/attraction_detail_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/main_toolbar"
+        android:adjustViewBounds="true"
+        android:contentDescription="SampleImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/organ_lung"/>
+
+    <TextView
+        android:id="@+id/details_txt"
+        android:layout_below="@id/attraction_detail_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines = "99"
+        android:scrollbars = "vertical"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="Your pulmonary organs play an important role in respiration system of the body. Oxygen moves in when you inhale air. The air travels from the external air passages (mouth and nose) down the trachea and finally into the alveoli through the bronchus and bronchioles.
+
+This oxygen dissolves into the layer of moisture around each alveoli and finally moves into blood capillaries. In this way, a lung plays a vital role in providing oxygen to all the body organs.
+
+It is important for your body to get rid of carbon dioxide which is a waste product of respiration. Once again, these are the pulmonary organs which help in the elimination of this toxic waste product. The path of carbon dioxide from the blood to the external environment is the reverse of the path that the oxygen takes to enter the blood stream.
+
+"/>
 
 </RelativeLayout>
