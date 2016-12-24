@@ -18,7 +18,7 @@ import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button loadModel, model, help;
+    Button loadModel, model, organs;
     Button about, exit;
     private static ViewPager mPager;
     private static int currentPage = 0;
@@ -65,6 +65,15 @@ public class MainActivity extends AppCompatActivity {
 
                 AlertDialog alert11 = builder1.create();
                 alert11.show();
+            }
+        });
+
+        organs = (Button) findViewById(R.id.main_organs);
+        organs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,MainOrgans.class);
+                startActivity(intent);
             }
         });
         init();

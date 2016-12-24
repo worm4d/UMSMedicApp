@@ -44,6 +44,11 @@ public class MainOrgansAdapter extends RecyclerView.Adapter<MainOrgansAdapter.My
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
+        MainOrgansModel mainOrgansModel = dataModelList.get(position);
+        holder.title.setText(mainOrgansModel.getTitle());
+//        holder.location.setText(attraction_model.getLocation());
+//        holder.year.setText(attraction_model.getYear());
+        holder.image.setImageResource(mainOrgansModel.getImage());
 
     }
 
