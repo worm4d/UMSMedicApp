@@ -6,6 +6,8 @@
     <color name="colorTeal">#008080</color>
     <color name="colorTwitterDarkBlue">#0084b4</color>
     <color name="colorTwitterLightBlue">#00aced</color>
+    <color name="colorLightGreen">#A3E4D7</color>
+    <color name="colorLightGrey">#ECF0F1</color>
 
     <color name="fbutton_color_turquoise">#1abc9c</color>
     <color name="fbutton_color_green_sea">#16a085</color>
