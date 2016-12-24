@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SlidingImage_Adapter" />
-        <activity android:name=".MainLoadModel"></activity>
+        <activity android:name=".MainLoadModel" />
+        <activity android:name=".MainModels"></activity>
     </application>
 
 </manifest>
