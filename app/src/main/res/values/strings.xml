@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">UMS Medic App</string>
+    <string name="about">Our disclaimer document is intended for use in relation to the simplest kinds of website that need to comply with English law: information-only websites lacking any significant interactive features (other than hyperLinks and HTML forms). This disclaimer has been used on hundreds of thousands of websites.
+
+The disclaimer has three main functions.  First, it specifies the basis upon which the website may be used.  In order to use a website, it must be copied, and so this takes the form of a copyright licence.  Second, it attempts to limit and exclude (disclaimer) various types of liability that may arise from the use of the website.  Third, it prompts the publication of certain information that must, under English law, be published on a website.
+
+The document is a shorter version of the basic website terms and conditions document available on this website.  The main differences is that this document omits the provisions relating specifically to interactive website features.
+
+The disclaimer document is divided into the following sections:
+
+a licence of the copyright in the website (and restrictions on what may be done with the material on the website);
+a disclaimer of liability (which gives the document its name);
+a variation clause;
+an entire agreement clause;
+a clause specifying the applicable law and the jurisdiction in which disputes will be decided; and
+a provision specifying some of the information which needs to be disclosed under the Ecommerce Regulations.</string>
 </resources>
