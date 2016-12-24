@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
 
-    int IMAGES[] = {R.drawable.slider_1, R.drawable.slider_2, R.drawable.slider_3, R.drawable.slider_4, R.drawable.slider_5, R.drawable.slider_6, };
+    int IMAGES[] = {R.drawable.slider_1, R.drawable.slider_2, R.drawable.slider_3, R.drawable.slider_4, R.drawable.slider_5, };
     private ArrayList<Integer> ImagesArray = new ArrayList<Integer>();
 
     @Override
