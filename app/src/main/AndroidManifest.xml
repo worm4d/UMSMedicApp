@@ -17,7 +17,20 @@
         </activity>
         <activity android:name=".SlidingImage_Adapter" />
         <activity android:name=".MainLoadModel" />
-        <activity android:name=".MainModels"></activity>
+        <activity android:name=".MainModels" />
+        <activity android:name=".MainOrgans" />
+        <activity android:name=".MainOrgansAdapter" />
+        <activity android:name=".MainOrgansModel" />
+        <activity android:name=".MainOrgansBrain" />
+        <activity android:name=".MainOrgansHeart" />
+        <activity android:name=".MainOrgansIntestineSmall" />
+        <activity android:name=".MainOrgansIntestineLarge" />
+        <activity android:name=".MainOrgansKidney" />
+        <activity android:name=".MainOrgansLiver" />
+        <activity android:name=".MainOrgansLung" />
+        <activity android:name=".MainOrgansPancreas" />
+        <activity android:name=".MainOrgansSkin" />
+        <activity android:name=".MainOrgansStomach"></activity>
     </application>
 
 </manifest>
